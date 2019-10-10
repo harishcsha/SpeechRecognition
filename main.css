@@ -1,88 +1,102 @@
+/**
+ * @author [Harish C Jingade]
+ * @email [justdoitnowharish@gmail.com]
+ * @create date 2019-10-10 19:47:27
+ * @modify date 2019-10-10 19:47:27
+ * @desc [Speech Recognition]
+ */
+ 
 @import url('https://fonts.googleapis.com/css?family=Kanit');
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @-webkit-keyframes animatedBackground {
-    0%   {background-position: 0px 0px;}
-   /* 25%  {background-position: 100% 100%;}
-    50%  {background-position: -100% -100%;}
-    75%  {top:200px;}*/
-    100% {background-position: 1024px 1024px}
+  0% {
+    background-position: 0px 0px;
   }
 
-  
-body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url('http://i.cubeupload.com/Zk7i1z.jpg');
-    background-position: 0px 0px;
-    -webkit-animation: animatedBackground 40s linear infinite;
-    /* background: #000 !important; */
-    /* font-family: 'Kanit', sans-serif; */
+  /* 25%  {background-position: 100% 100%;}
+    50%  {background-position: -100% -100%;}
+    75%  {top:200px;}*/
+  100% {
+    background-position: 1024px 1024px
+  }
 }
 
-.header--Title, 
-.clickTxt {
-    color: #416f97;
-    font-family: 'Bahiana';
-    font-size: 32px;
-    margin: 0 auto;
-    display: table;
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('http://i.cubeupload.com/Zk7i1z.jpg');
+  background-position: 0px 0px;
+  -webkit-animation: animatedBackground 40s linear infinite;
+  /* background: #000 !important; */
+  /* font-family: 'Kanit', sans-serif; */
 }
-.emojie{
-    font-size: 40px;
-    position: relative;
-    top: 40px;
-    margin: 0 auto;
-    display: table;
+
+.header--Title,
+.clickTxt {
+  color: #416f97;
+  font-family: 'Bahiana';
+  font-size: 32px;
+  margin: 0 auto;
+  display: table;
+}
+
+.emojie {
+  font-size: 40px;
+  position: relative;
+  top: 40px;
+  margin: 0 auto;
+  display: table;
 }
 
 #mic {
-    display: inline-block;
-    margin: 50px 0;
-    font-size: 80px;
-    line-height: 170px;
-    height: 180px;
-    width: 180px;
-    text-align: center;
-    border-radius: 50%;
-    transition: all 0.2s linear;
-    cursor: pointer;
+  display: inline-block;
+  margin: 50px 0;
+  font-size: 80px;
+  line-height: 170px;
+  height: 180px;
+  width: 180px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+  cursor: pointer;
 }
 
 #mic.fa-microphone {
-    border: 5px solid #416f97;
-    color: #416f97;
+  border: 5px solid #416f97;
+  color: #416f97;
 }
 
 #mic.fa-microphone:hover {
-    color: #9fea63;
-    border-color: #9fea63;
+  color: #9fea63;
+  border-color: #9fea63;
 }
 
 #mic.fa-microphone-slash {
-    border: 5px solid #f00;
-    color: #f00;
+  border: 5px solid #f00;
+  color: #f00;
 }
 
 #mic.fa-microphone-slash:hover {
-    color: #fff;
-    border-color: #fff;
+  color: #fff;
+  border-color: #fff;
 }
 
 #text {
-    display: block;
-    height: 50px;
-    width: 90%;
-    font-size: 20px;
-    padding: 15px;
-    border: 2px solid #416f97;
-    background-color: transparent;
-    color: #9fea63;
-    border-radius: 25px;
+  display: block;
+  height: 50px;
+  width: 90%;
+  font-size: 20px;
+  padding: 15px;
+  border: 2px solid #416f97;
+  background-color: transparent;
+  color: #9fea63;
+  border-radius: 25px;
 }

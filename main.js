@@ -1,3 +1,11 @@
+/**
+ * @author [Harish C Jingade]
+ * @email [justdoitnowharish@gmail.com]
+ * @create date 2019-10-10 19:47:56
+ * @modify date 2019-10-10 19:47:56
+ * @desc [Speech Recognition]
+ */
+
 let isRecording = false;
 let recognition;
 
