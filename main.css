@@ -30,6 +30,8 @@ body {
     color: #416f97;
     font-family: 'Bahiana';
     font-size: 32px;
+    margin: 0 auto;
+    display: table;
 }
 
 #mic {
