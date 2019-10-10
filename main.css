@@ -26,10 +26,18 @@ body {
     /* font-family: 'Kanit', sans-serif; */
 }
 
-.header--Title {
+.header--Title, 
+.clickTxt {
     color: #416f97;
     font-family: 'Bahiana';
     font-size: 32px;
+    margin: 0 auto;
+    display: table;
+}
+.emojie{
+    font-size: 40px;
+    position: relative;
+    top: 40px;
     margin: 0 auto;
     display: table;
 }
